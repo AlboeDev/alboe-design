@@ -1,0 +1,20 @@
+{
+  "name": "@alboe-design-components/provider",
+  "version": "0.0.0",
+  "description": "The Alboe Design System Provider Component",
+  "main": "./dist/module/index.js",
+  "types": "./dist/types/index.d.ts",
+  "type": "module",
+  "repository": "git@github.com:AlboeDev/alboe-design.git",
+  "author": "Alboe Development",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "build:transpile": "tsc",
+    "clean:dist": "rimraf ./dist"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  }
+}
